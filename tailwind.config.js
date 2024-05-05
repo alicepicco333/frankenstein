@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        trueGray: colors.neutral,
+        trueGray: colors.trueGray,
       },
-    },
-    fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      stock: [defaultTheme.fontFamily.sans],
+      fontFamily: {
+        sans: ["Inter", "Oldenburg", ...defaultTheme.fontFamily.sans],
+        stock: ["Oldenburg", ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   variants: {
