@@ -53,7 +53,7 @@ const Hero = () => {
           <div style={{ position: "relative", zIndex: -1, margin: 1}}>
     <Image
         src={heroImg}
-        width="400"  
+        width="350"  
         className={"object-cover"}
         alt="Hero Illustration"
         loading="eager"
