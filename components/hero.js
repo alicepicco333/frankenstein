@@ -8,11 +8,11 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-8xl font-bold tracking-tight text-gray-800 lg:text-8xl lg:leading-tight xl:text-9xl xl:leading-tight dark:text-white">
-              Frankenstein
+            <h1 className="text-6xl font-bold tracking-tight text-gray-800 lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
+              Mary Shelley HRT
             </h1>
             <h4 className="text-4xl font-bold tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
-              or the modern Prometheus
+            a Handwritten Text Recognition campaign with Transkribus
             </h4>
             <p className="mr-8 py-4 text-sm leading-normal text-gray-500 lg:text-sm xl:text-md dark:text-gray-300">
             This website serves as a repository for our Semantic Digital Libraries project at University of Bologna. We trained an AI model with Transkribus to recognize Mary Shelley's manuscript of the classic <i>Frankenstein or the modern Prometheus</i>.
